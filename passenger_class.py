@@ -28,7 +28,11 @@ class AirportPassenger(MSDBConnection):
         self.sql_query(query)
         self.sql_commit()
 
+    def add_passenger_to_flight(self):
+        pass
 
 
-new_passenger = AirportPassenger()
-new_passenger = new_passenger.create_a_passenger()
+
+
+# new_passenger = AirportPassenger()
+# new_passenger = new_passenger.create_a_passenger()
